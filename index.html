@@ -15,36 +15,46 @@
   </head>
   <body>
     <div class="container">
-      <div class="weatherapp">
-        <h1>Los Angeles</h1>
-        <ul>
-          <li>Sunday 05:00</li>
-          <li>Clear</li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-              alt="clear"
-            />
-            19°C | °F
-          </div>
-          <div class="col-6">
+      <div class="weatherapp-wrapper">
+        <div class="weatherapp">
+          <div class="overview">
+            <h1>Los Angeles</h1>
             <ul>
-              <li>Precipitation: 0%</li>
-              <li>Humidity: 25%</li>
-              <li>Wind: 6 km/hr</li>
+              <li>Sunday 05:00</li>
+              <li>Clear</li>
             </ul>
           </div>
-          <div>
-            <small>
-              <a
-                href="https://github.com/artistkelz/Vanilla-Weather-App"
-                target="_blank"
-                >Open-source code</a
-              >, by Kelsey Murray
-            </small>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                  alt="clear"
+                  class="float-left"
+                />
+                <div class="float-left">
+                  <strong>19</strong>
+                  <span class="units">°C | <a href="#">°F</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 0%</li>
+                <li>Humidity: 25%</li>
+                <li>Wind: 6 km/hr</li>
+              </ul>
+            </div>
           </div>
+        </div>
+        <div>
+          <small>
+            <a
+              href="https://github.com/artistkelz/Vanilla-Weather-App"
+              target="_blank"
+              >Open-source code</a
+            >, by Kelsey Murray
+          </small>
         </div>
       </div>
     </div>
