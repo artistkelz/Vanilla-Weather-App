@@ -1,12 +1,12 @@
 body {
-  font-family: "Google Sans", arial, sans-serif;
+  font-family: "The Girl Next Door", cursive;
 }
 
 h1 {
-  color: rgb(232, 234, 237);
+  color: #f5c7f7;
   display: block;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 36px;
+  font-weight: bold;
   line-height: 28px;
 }
 
@@ -31,13 +31,16 @@ li::first-letter {
 
 .weatherapp-wrapper {
   max-width: 600px;
+  max-height: 900px;
   margin: 30px auto;
 }
 
 .weatherapp {
   padding: 20px;
-  border: 1px solid #dfdfdf;
+  border: 1px solid #27296d;
   border-radius: 5px;
+  background-image: url("file:///Volumes/GoogleDrive/My%20Drive/GitHub/weather-app/img/space.jpg");
+  background-size: cover;
 }
 
 .overview {
@@ -67,4 +70,9 @@ li::first-letter {
   color: rgb(232, 234, 237);
   cursor: default;
   text-decoration: none;
+}
+
+.btn-primary {
+  color: rgb(232, 234, 237);
+  background-color: #a393eb;
 }
