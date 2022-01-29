@@ -39,7 +39,8 @@ li::first-letter {
   padding: 20px;
   border: 1px solid #27296d;
   border-radius: 5px;
-  background-image: url("file:///Volumes/GoogleDrive/My%20Drive/GitHub/weather-app/img/space.jpg");
+
+  background-image: url("../img/space.jpg");
   background-size: cover;
 }
 
