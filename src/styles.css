@@ -46,6 +46,10 @@ li::first-letter {
 .overview {
   margin-bottom: 20px;
 }
+
+.weather-temperature {
+  color: rgb(232, 234, 237);
+}
 .weather-temperature img {
   margin-right: 5px;
   float: left;
@@ -54,7 +58,6 @@ li::first-letter {
 }
 
 .weather-temperature strong {
-  color: rgb(232, 234, 237);
   font-size: 64px;
   font-weight: 100;
   line-height: 1;
@@ -62,8 +65,8 @@ li::first-letter {
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
-  top: -34px;
+  font-size: 18px;
+  top: -25px;
 }
 
 .weather-temperature .active {
@@ -73,7 +76,7 @@ li::first-letter {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 28px;
   text-align: center;
 }
 
@@ -83,7 +86,7 @@ li::first-letter {
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 20px;
   color: rgb(232, 234, 237);
 }
 
