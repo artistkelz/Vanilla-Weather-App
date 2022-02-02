@@ -1,5 +1,6 @@
 body {
   font-family: "The Girl Next Door", cursive;
+  background-color: #27296d;
 }
 
 h1 {
@@ -29,15 +30,19 @@ li::first-letter {
   text-transform: capitalize;
 }
 
+small {
+  color: #a393eb;
+}
+
 .weatherapp-wrapper {
-  max-width: 600px;
-  max-height: 900px;
-  margin: 30px auto;
+  max-width: 800px;
+  max-height: 1500px;
+  margin: 50px auto;
 }
 
 .weatherapp {
   padding: 20px;
-  border: 1px solid #27296d;
+  border: 2px solid #27296d;
   border-radius: 5px;
   background-image: url("../img/space.jpg");
   background-size: cover;
@@ -81,17 +86,18 @@ li::first-letter {
 }
 
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 23px;
   color: #f5c7f7;
 }
 
 .weather-forecast-temperatures {
-  font-size: 20px;
+  font-size: 26px;
   color: rgb(232, 234, 237);
+  font-weight: bold;
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .btn-primary {
